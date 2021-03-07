@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <a th:href="@{/toLogin}">登录</a>
+    <br/>
+    <div>
+        <label>level1</label>
+        <a th:href="@{/level1/1}">1</a>
+        <a th:href="@{/level1/2}">2</a>
+        <a th:href="@{/level1/3}">3</a>
+    </div>
+    <div>
+        <label>level2</label>
+        <a th:href="@{/level2/1}">1</a>
+        <a th:href="@{/level2/2}">2</a>
+        <a th:href="@{/level2/3}">3</a>
+    </div>
+    <div>
+        <label>level3</label>
+        <a th:href="@{/level3/1}">1</a>
+        <a th:href="@{/level3/2}">2</a>
+        <a th:href="@{/level3/3}">3</a>
+    </div>
+</body>
+</html>
